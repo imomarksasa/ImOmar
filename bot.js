@@ -11,9 +11,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('ready',  () => {
-  client.user.setGame(`Hi D=`,'https://www.twitch.tv/alrimii');
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
