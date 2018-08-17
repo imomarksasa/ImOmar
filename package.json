@@ -1,17 +1,12 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "bytetech",
+  "version": "2.1.0",
+  "description": "-- AWESOMENESS --",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-  }
-}
-"dependencies": {
     "ascii-data-table": "^2.1.1",
     "canvas": "^1.6.10",
     "dateformat": "^3.0.3",
@@ -40,4 +35,3 @@
   "engines": {
     "node": "8.4.0"
   }
-}
