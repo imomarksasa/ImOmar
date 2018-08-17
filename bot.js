@@ -5,10 +5,16 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('Your Ping is 1000 حسن مستواك');
-  	}
+
+
+client.on('guildMemberAdd', member => {
+    var embed = new Discord.RichEmbed()
+    .setDescription(`WelCome To Ghost`)
+ 
+
+var channel =member.guild.channels.find('name', 'public-chat')
+if (!channel) return;
+channel.send({embed : embed});
 });
 
 
